@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{AD82A06B-24E6-4FE7-8189-0B760E32E2C5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Rocky/Views/Category/Index.cshtml">
+    <Files>
+      <File FileName="Rocky/Controllers/CategoryController.cs" Line="25" Column="1" />
+      <File FileName="Rocky/Views/Category/Create.cshtml" Line="18" Column="57" />
+      <File FileName="Rocky/Models/Category.cs" Line="10" Column="36" />
+      <File FileName="Rocky/Views/Category/Index.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Rocky" expanded="True">
+            <Node name="Rocky" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Category" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Rocky PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

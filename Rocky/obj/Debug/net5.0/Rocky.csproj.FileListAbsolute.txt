@@ -38,3 +38,4 @@
 /Users/aryanlilian/Desktop/Projects/Rocky/Rocky/obj/Debug/net5.0/Rocky.genruntimeconfig.cache
 /Users/aryanlilian/Desktop/Projects/Rocky/Rocky/obj/Debug/net5.0/Rocky.csproj.CopyComplete
 /Users/aryanlilian/Desktop/Projects/Rocky/Rocky/obj/Debug/net5.0/Razor/Views/Category/Index.cshtml.g.cs
+/Users/aryanlilian/Desktop/Projects/Rocky/Rocky/obj/Debug/net5.0/Razor/Views/Category/Create.cshtml.g.cs
