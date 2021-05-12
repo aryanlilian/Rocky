@@ -1,0 +1,21 @@
+﻿@model Rocky.Models.ApplicationType
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="POST">
+    <input asp-for="Id" hidden>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter application type Name here">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <input type="submit" class="btn btn-success w-100" value="Update Application Type">
+    <a asp-action="Index" class="btn btn-info w-100 mt-3">Back to Categories</a>
+</form>
+
+@section Scripts {
+    @{
+        <partial name="_ValidationScriptsPartial.cshtml" />
+    }
+}

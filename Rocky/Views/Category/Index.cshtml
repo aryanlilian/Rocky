@@ -19,6 +19,7 @@
                 <tr>
                     <th scope="col">Category Name</th>
                     <th scope="col">Category Display Order</th>
+                    <th scope="col">Edit/Delete</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +28,16 @@
                     <tr>
                         <td>@obj.Name</td>
                         <td>@obj.DisplayOrder</td>
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Category" asp-action="Edit" asp-route-Id="@obj.Id" class="btn btn-info mr-1">
+                                    Edit
+                                </a>
+                                <a asp-controller="Category" asp-action="Edit" asp-route-Id="@obj.Id" class="btn btn-danger ml-1">
+                                    Delete
+                                </a>
+                            </div>
+                        </td>
                     </tr>
                 }
             </tbody>
