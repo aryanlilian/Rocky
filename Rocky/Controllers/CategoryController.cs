@@ -53,7 +53,9 @@ namespace Rocky.Controllers
             {
                 return NotFound();
             }
+
             var obj = _db.Category.Find(id);
+
             if (obj == null)
             {
                 return NotFound();
@@ -73,6 +75,45 @@ namespace Rocky.Controllers
                 return RedirectToAction("Index");
             }
             return View(obj);
+        }
+
+        // GET - Category/Delete
+        public IActionResult Delete(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var obj = _db.Category.Find(id);
+
+            if (obj == null)
+            {
+                return NotFound();
+            }
+            return View(obj);
+        }
+
+        // POST - Category/DeleteObj
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteObj(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            var obj = _db.Category.Find(id);
+
+            if(obj == null)
+            {
+                return NotFound();
+            }
+
+            _db.Category.Remove(obj);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
         }
     }
 }

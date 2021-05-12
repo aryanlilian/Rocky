@@ -1,0 +1,14 @@
+﻿@model Rocky.Models.ApplicationType
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="POST" asp-action="DeleteObj">
+    <input asp-for="Id" hidden>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" disabled>
+    </div>
+    <input type="submit" class="btn btn-danger w-100" value="Delete Application Type">
+    <a asp-action="Index" class="btn btn-info w-100 mt-3">Back to Application Types</a>
+</form>
