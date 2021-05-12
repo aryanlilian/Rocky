@@ -5,12 +5,12 @@
 
 <form method="POST" asp-action="Create">
     <div class="mb-3">
-        <label asp-for="Id" class="form-label"></label>
-        <input asp-for="Id" type="number" class="form-control" id="exampleInputEmail1" placeholder="Enter category id here">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter category Name here">
     </div>
     <div class="mb-3">
-        <label asp-for="Name" class="form-label"></label>
-        <input asp-for="Name" type="number" class="form-control" id="exampleInputEmail1" placeholder="Enter category name here">
+        <label asp-for="DisplayOrder" class="form-label"></label>
+        <input asp-for="DisplayOrder" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter category DisplayOrder here">
     </div>
     <input type="submit" class="btn btn-primary w-100" value="Create Category">
     <a asp-action="Index" class="btn btn-info w-100 mt-3">Back to Categories</a>

@@ -1,4 +1,4 @@
-﻿@model List<Rocky.Models.Category>
+﻿@model IEnumerable<Rocky.Models.Category>
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -17,16 +17,16 @@
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">Category Id</th>
+                    <th scope="col">Category Order</th>
                     <th scope="col">Category Name</th>
                 </tr>
             </thead>
             <tbody>
-                @foreach (Category obj in Model)
+                @foreach (var obj in Model)
                 {
                     <tr>
-                        <td>@obj.Id</td>
                         <td>@obj.Name</td>
+                        <td>@obj.DisplayOrder</td>
                     </tr>
                 }
             </tbody>
@@ -34,6 +34,6 @@
     }
     else
     {
-        <h4 class="warning">There are no categories</h4>
+        <h4 class="text-center mt-5">There are no categories</h4>
     }
 </div>
