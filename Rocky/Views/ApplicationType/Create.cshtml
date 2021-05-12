@@ -1,0 +1,13 @@
+﻿@model Rocky.Models.ApplicationType
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<form method="POST" asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter application type Name here">
+    </div>
+    <input type="submit" class="btn btn-primary w-100" value="Add Application Type">
+    <a asp-controller="ApplicationType" asp-action="Index" class="btn btn-info w-100 mt-3">Back to Application Types</a>
+</form>
