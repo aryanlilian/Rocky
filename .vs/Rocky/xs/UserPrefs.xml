@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{AD82A06B-24E6-4FE7-8189-0B760E32E2C5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Rocky/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Rocky/Views/ApplicationType/Create.cshtml">
     <Files>
-      <File FileName="Rocky/Models/ApplicationType.cs" Line="13" Column="1" />
-      <File FileName="Rocky/Data/ApplicationDbContext.cs" Line="15" Column="68" />
-      <File FileName="Rocky/Controllers/ApplicationTypeController.cs" Line="40" Column="20" />
-      <File FileName="Rocky/Views/ApplicationType/Index.cshtml" Line="10" Column="39" />
-      <File FileName="Rocky/Views/ApplicationType/Create.cshtml" Line="11" Column="83" />
-      <File FileName="Rocky/Views/Category/Create.cshtml" Line="17" Column="8" />
-      <File FileName="Rocky/Views/Category/Index.cshtml" Line="21" Column="59" />
-      <File FileName="Rocky/Views/Shared/_Layout.cshtml" Line="29" Column="30" />
+      <File FileName="Rocky/Models/Category.cs" Line="21" Column="2" />
+      <File FileName="Rocky/Views/Category/Create.cshtml" Line="18" Column="66" />
+      <File FileName="Rocky/Controllers/CategoryController.cs" Line="44" Column="50" />
+      <File FileName="Rocky/Controllers/ApplicationTypeController.cs" Line="44" Column="30" />
+      <File FileName="Rocky/Models/ApplicationType.cs" Line="11" Column="18" />
+      <File FileName="Rocky/Views/ApplicationType/Create.cshtml" Line="7" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +14,12 @@
           <Node name="Rocky" expanded="True">
             <Node name="Rocky" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="ApplicationType" expanded="True" />
-                <Node name="Category" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="ApplicationType" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
                 </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

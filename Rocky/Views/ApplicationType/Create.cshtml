@@ -4,10 +4,16 @@
 }
 
 <form method="POST" asp-action="Create">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter application type Name here">
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
     <input type="submit" class="btn btn-primary w-100" value="Add Application Type">
     <a asp-controller="ApplicationType" asp-action="Index" class="btn btn-info w-100 mt-3">Back to Application Types</a>
 </form>
+
+@section Scripts {
+    @{ <partial name="_ValidationScriptsPartial.cshtml" />}
+}
