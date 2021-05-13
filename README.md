@@ -20,15 +20,15 @@ Index-Page:
 Categories List:
 ![](README-images/Categories-List.png)
 
-Add Cateogory:
+Add Category:
 ![](README-images/Add-Category.png)
 
 Edit Category:
 ![](README-images/Edit-Category.png)
 
 Edit Category Validation Errors:
-![](README-images/Edit-Cateogory-Validation-1.png)
-![](README-images/Edit-Cateogory-Validation-2.png)
+![](README-images/Edit-Category-Validation-1.png)
+![](README-images/Edit-Category-Validation-2.png)
 
 Delete Category:
 ![](README-images/Delete-Category.png)
