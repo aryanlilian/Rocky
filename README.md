@@ -1,6 +1,6 @@
 # Rocky
 
-_Rocky is a basic CRUP Web App that was built using ASP.NET Core 5.0 Framework for the backend, Bootstrap for the frontend, and SQL Server for the DB. This application has a simple and friendly UI and all the CRUD operations on the DB. The Rocky application is just for testing purposes._
+_Rocky is a basic CRUP Web App that was built using ASP.NET Core 5.0 Framework for the backend, Bootstrap for the frontend, and SQL Server for the DB. This application has a simple and friendly UI and all the CRUD operations on the DB. All the Add, Edit forms have input validations made on the Client-side for reducing time and latency. The Rocky application is just for testing purposes._
 
 ## Prerequirements
 
