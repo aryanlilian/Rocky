@@ -1,18 +1,22 @@
 ﻿@model Rocky.Models.Category
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Delete Category";
 }
 
-<form method="POST" asp-action="DeleteObj">
-    <input asp-for="Id" hidden>
-    <div class="mb-3">
-        <label asp-for="Name" class="form-label"></label>
-        <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" disabled>
-    </div>
-    <div class="mb-3">
-        <label asp-for="DisplayOrder" class="form-label"></label>
-        <input asp-for="DisplayOrder" type="text" class="form-control" id="exampleInputEmail1" disabled>
-    </div>
-    <input type="submit" class="btn btn-danger w-100" value="Delete Category">
-    <a asp-action="Index" class="btn btn-info w-100 mt-3">Back to Categories</a>
-</form>
+<div class="container">
+    <h3>Delete Category</h3>
+    <form method="POST" asp-action="DeleteObj">
+        <input asp-for="Id" hidden>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" disabled>
+        </div>
+        <div class="mb-3">
+            <label asp-for="DisplayOrder" class="form-label"></label>
+            <input asp-for="DisplayOrder" type="text" class="form-control" id="exampleInputEmail1" disabled>
+        </div>
+        <input type="submit" class="btn btn-danger w-100" value="Delete Category">
+        <a asp-action="Index" class="btn btn-info w-100 mt-3">Back to Categories</a>
+    </form>
+</div>

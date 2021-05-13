@@ -52,7 +52,9 @@ namespace Rocky.Controllers
             {
                 return NotFound();
             }
+
             var obj = _db.ApplicationType.Find(id);
+
             if (obj == null)
             {
                 return NotFound();
